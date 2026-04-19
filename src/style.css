@@ -1,5 +1,16 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
-
-body{
-    background: white;
+.card {
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: white;
 }
+.suit { font-size: 20px; } 
+.suit-bottom { transform: rotate(180deg); }
+.value { font-size: 50px; text-align: center; }
+.red { color: red; }
+.black { color: black; }
